@@ -11,10 +11,10 @@ def koch_curve(t, order, size):
 def draw_koch_snowflake(order, size):
     # Set up the screen and turtle
     screen = turtle.Screen()
-    screen.bgcolor("lightgreen") #LIKE THE EXAMPLE
+    screen.bgcolor("green") #Green background
     t = turtle.Turtle()
     t.speed(0)
-    t.color("blue")
+    t.color("blue") #Blue Line
 
     # Move to start 
     t.penup()
